@@ -1,0 +1,35 @@
+#cs1300-gallery {
+  background-color: lightblue;
+}
+
+/* Uncomment below if images are way too big.
+Selects all image tags and makes them 500px;
+ */
+/*img {*/
+/*  width: 500px;*/
+/*}*/
+
+.gallery-container {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+}
+.gallery-item{
+  height:500px;
+  width: 300px;
+}
+
+.story-item{
+  height:200px;
+  width: 200px;
+}
+.story{
+  display: flex;
+  justify-content: space-around;
+}
+.story-items{
+  
+  width: 200px;
+}
+.story-text{
+  
+  width: 200px;
+}
